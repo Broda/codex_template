@@ -1,0 +1,45 @@
+# ----------------------------
+# Python
+# ----------------------------
+
+# Bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Distribution
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Test / coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.*
+
+# Runtime databases (local-first apps)
+*.db
+*.sqlite
+*.sqlite3
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
