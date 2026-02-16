@@ -37,3 +37,12 @@ Thumbs.db
 # Environment files
 .env
 .env.*
+
+# Packaged artifacts
+release/
+artifacts/
+*.exe
+*.dmg
+*.pkg
+*.zip
+*.tar.gz

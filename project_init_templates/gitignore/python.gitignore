@@ -43,3 +43,12 @@ Thumbs.db
 # IDE
 .vscode/
 .idea/
+
+# Packaged artifacts
+release/
+artifacts/
+*.exe
+*.dmg
+*.pkg
+*.zip
+*.tar.gz

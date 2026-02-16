@@ -33,3 +33,12 @@ Thumbs.db
 # Temporary
 tmp/
 temp/
+
+# Packaged artifacts
+release/
+artifacts/
+*.exe
+*.dmg
+*.pkg
+*.zip
+*.tar.gz

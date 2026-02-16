@@ -11,6 +11,7 @@ Goal:
 After initialization:
 - `docs/` is the single source of truth
 - Templates must never be used again
+- Do not overwrite root `AGENTS.md` (it is the governing runtime instruction file)
 
 ---
 
@@ -60,7 +61,6 @@ Do not proceed to generation until answers are collected.
 Always generate the following (from templates):
 
 - README.md
-- AGENTS.md (copied from repo root or generated once; after init, this governs everything)
 - docs/PROJECT_CONTEXT.md
 - docs/ROADMAP.md
 - docs/ARCHITECTURE.md
@@ -70,8 +70,11 @@ Always generate the following (from templates):
 - docs/SECURITY_POLICY.md
 - docs/RUNTIME_VERIFICATION_REPORT.md
 - docs/adr/ADR-0001-record-architecture-decisions.md
+- docs/adr/ADR-TEMPLATE.md
 - CHANGELOG.md
 - .gitignore (stack-aligned)
+
+Note: CHANGELOG.md must be generated from a template file (add `project_init_templates/docs/CHANGELOG.base.md`).
 
 ---
 
